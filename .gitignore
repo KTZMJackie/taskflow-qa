@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# App / test artifacts
+app/*.db
+app/*.db-journal
+reports/*.html
+reports/*.xml
+reports/failures.json
+.pytest_cache/
+
+# AI-generated output (regenerated on demand)
+ai/generated/*.py
+!ai/generated/.gitkeep
+
+# Secrets — NEVER commit these
+.env
+*.key
+*.pem
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
